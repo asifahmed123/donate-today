@@ -14,14 +14,17 @@ body {
     margin-top: 100px;
 }
 .title-details{
-    width: 100%;
+    width: 60%;
+    margin: auto;
     text-align: center;
+    margin-top: 10px;
 }
 .image-container{
    width: 100%;
-   margin-top: 100px;
+   margin-top: 20px;
 }
 .link-button{
+    display: inline-block;
     text-decoration: none;
     color: white;
     padding: 10px 50px;
@@ -34,6 +37,8 @@ body {
     background-image: url(images/donation13.jpg);
     background-size: cover;
     height: 500px;
+    display: flex;
+    align-items: center;
 }
 .price-button{
     display: flex;
@@ -44,13 +49,16 @@ body {
     padding: 30px 20px;
     font-size: 18px;
     margin: 40px;
-    border: 1px solid red;
+    
     border-radius: 5px;
     font-weight: 700;
     
 }
 .button-decoration{
     background-color: rgba(255, 0, 0, 0.11);
+}
+.button-decoration2{
+    background-color: rgba(209, 241, 241, 0.637);
 }
 h2 {
     text-align: center;
@@ -60,7 +68,8 @@ h2 {
 h4{
     text-align: center;
     color: white;
-    height: 100px;
+    height: 100px;   
+     margin-bottom: 0;
 }
 .section-two{
 }    
@@ -73,42 +82,69 @@ h4{
     font-weight: bold;
 }
 .need-order{
-    width: 300px;
+    width: 27%;
     border-radius: 5px;
-    padding-left: 20px;
-    padding-right: 30px;
-    padding-top: 100px;
-    margin-left: 50px;
+    padding: 20px;
 }
 .cart{
+    width: 70%;
+    margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.cart img {
+    width: 40px;
 }
 #food-id{
-    background-image:url(images/food.png);
     background-repeat: no-repeat;
     background-position: 20px 30px;
     background-color: rgba(216, 238, 238, 0.488);
 }
 #shelter-id{
-    background-image: url(images/shelter.png);
     background-repeat: no-repeat;
     background-position: 20px 30px;
     background-color: rgba(230, 201, 206, 0.603);
 }
 #education-id{
-    background-image: url(images/Frame-1.png);
     background-repeat: no-repeat;
     background-position: 20px 30px;
     background-color: rgba(230, 230, 171, 0.647);
 }
 .form-section{
     display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
-.end{
-    background-color: black;
+.subscription-form {
+    padding: 30px 60px;
+    background-color: rgba(243, 231, 138, 0.514);
 }
-.gg{
+
+.subscription-form input {
+    background-color: gainsboro;
+    padding: 5px;
+    border: none;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+.subscription-form button {
+    background-color: rgb(255, 89, 0);
+    padding: 5px;
     color: white;
+    border: none;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    margin-left: -4px;
+}
+.bottom{
+    background-color: black;
+    padding-top: 25px;
+}
+.bottom-text{
+    color: rgb(229, 25, 25);
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
