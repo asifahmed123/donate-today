@@ -14,11 +14,12 @@ body {
     margin-top: 100px;
 }
 .title-details{
-    padding: 300px;
-    margin-top: -300px;
+    width: 100%;
+    text-align: center;
 }
 .image-container{
-    margin-top: -200px;
+   width: 100%;
+   margin-top: 100px;
 }
 .link-button{
     text-decoration: none;
@@ -26,8 +27,7 @@ body {
     padding: 10px 50px;
     font-size: 20px;
     font-weight: 800;
-    border-radius: 10px;
-
+    border-radius: 10px;;
     background-image: linear-gradient(to right, green, rgb(228, 228, 17));
 }
 .top-background{
@@ -37,6 +37,7 @@ body {
 }
 .price-button{
     display: flex;
+    justify-content: center;
 }
 .price-button li{
     list-style: none;
@@ -51,15 +52,18 @@ body {
 .button-decoration{
     background-color: rgba(255, 0, 0, 0.11);
 }
-h2{
+h2 {
     text-align: center;
     font-size: 30px;
     font-weight: 900;
 }
-.section-two{
-    margin-top: -300px;
-    padding-left: 270px;
+h4{
+    text-align: center;
+    color: white;
+    height: 100px;
 }
+.section-two{
+}    
 .margin-top{
     margin-top: 50px;
 }
@@ -69,19 +73,16 @@ h2{
     font-weight: bold;
 }
 .need-order{
-    height: 250px;
     width: 300px;
-    border: 1px solid gray;
     border-radius: 5px;
     padding-left: 20px;
     padding-right: 30px;
     padding-top: 100px;
-    margin-top: -270px;
     margin-left: 50px;
 }
 .cart{
     display: flex;
-    padding-left: 150px;
+    justify-content: center;
 }
 #food-id{
     background-image:url(images/food.png);
@@ -100,4 +101,14 @@ h2{
     background-repeat: no-repeat;
     background-position: 20px 30px;
     background-color: rgba(230, 230, 171, 0.647);
+}
+.form-section{
+    display: flex;
+}
+.end{
+    background-color: black;
+}
+.gg{
+    color: white;
+    text-align: center;
 }
