@@ -1,0 +1,103 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.title-header{
+    font-size: 50px;
+    margin: 0;
+}
+.top-banner{
+    text-align: center;
+    color: white;
+}
+.donate-section{
+    margin-top: 100px;
+}
+.title-details{
+    padding: 300px;
+    margin-top: -300px;
+}
+.image-container{
+    margin-top: -200px;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    padding: 10px 50px;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 10px;
+
+    background-image: linear-gradient(to right, green, rgb(228, 228, 17));
+}
+.top-background{
+    background-image: url(images/donation13.jpg);
+    background-size: cover;
+    height: 500px;
+}
+.price-button{
+    display: flex;
+}
+.price-button li{
+    list-style: none;
+    padding: 30px 20px;
+    font-size: 18px;
+    margin: 40px;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-weight: 700;
+    
+}
+.button-decoration{
+    background-color: rgba(255, 0, 0, 0.11);
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+.section-two{
+    margin-top: -300px;
+    padding-left: 270px;
+}
+.margin-top{
+    margin-top: 50px;
+}
+.amount{
+    text-align: center;
+    color: rgb(170, 169, 169);
+    font-weight: bold;
+}
+.need-order{
+    height: 250px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 100px;
+    margin-top: -270px;
+    margin-left: 50px;
+}
+.cart{
+    display: flex;
+    padding-left: 150px;
+}
+#food-id{
+    background-image:url(images/food.png);
+    background-repeat: no-repeat;
+    background-position: 20px 30px;
+    background-color: rgba(216, 238, 238, 0.488);
+}
+#shelter-id{
+    background-image: url(images/shelter.png);
+    background-repeat: no-repeat;
+    background-position: 20px 30px;
+    background-color: rgba(230, 201, 206, 0.603);
+}
+#education-id{
+    background-image: url(images/Frame-1.png);
+    background-repeat: no-repeat;
+    background-position: 20px 30px;
+    background-color: rgba(230, 230, 171, 0.647);
+}
