@@ -71,8 +71,9 @@ h4{
     height: 100px;   
      margin-bottom: 0;
 }
-.section-two{
-}    
+hr{
+    width: 60%;
+}
 .margin-top{
     margin-top: 50px;
 }
@@ -160,7 +161,7 @@ h4{
 }
 .report-card{
     width: 250px;
-    margin-left: 100px;
+    margin-left: 75px;
     background-color: rgba(192, 149, 219, 0.346);
     border-radius: 5px;
     padding-left: 10px;
