@@ -150,9 +150,10 @@ h4{
 }
 
 .report-form{
-    background-color: rgb(226, 176, 149);
+    background-color: rgb(39, 245, 118);
     margin: auto;
-    max-width:fit-content;
+    width: 330px;
+    border-radius: 10px;
 }
 .report-icon{
     width: 150px;
@@ -160,10 +161,11 @@ h4{
 .report-card{
     width: 250px;
     margin-left: 100px;
-    background-color: beige;
+    background-color: rgba(192, 149, 219, 0.346);
     border-radius: 5px;
     padding-left: 10px;
 }
 .report-container{
     display: flex;
+    justify-content: center;
 }
