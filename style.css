@@ -148,3 +148,22 @@ h4{
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+.report-form{
+    background-color: rgb(226, 176, 149);
+    margin: auto;
+    max-width:fit-content;
+}
+.report-icon{
+    width: 150px;
+}
+.report-card{
+    width: 250px;
+    margin-left: 100px;
+    background-color: beige;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.report-container{
+    display: flex;
+}
